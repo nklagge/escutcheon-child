@@ -1,0 +1,49 @@
+/*
+Theme Name: Escutcheon-child
+Theme URI: https://github.com/nklagge
+Description: Escutcheon Child Theme
+Version: 1.0.0
+Author: Nick Klagge
+Author URI: https://github.com/nklagge
+Template: escutcheon
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: escutcheon-child
+Tags: blog, custom-background, custom-header, custom-menu, featured-images, flexible-header, left-sidebar, rtl-language-support, translation-ready, two-columns
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Media queries
+--------------------------------------------------------------*/
+@media screen and (min-width: 50em)
+{
+	.site-title
+	{
+		font-size: 100px;
+
+		letter-spacing: 8px;
+	}
+
+	.single .post,
+	.single .page,
+	body.page .post,
+	body.page .page
+	{
+		float: right;
+
+		width: 100%;
+	}
+
+	.site-content .widget-area
+	{
+		float: left;
+
+		width: 0%;
+	}
+
+}
